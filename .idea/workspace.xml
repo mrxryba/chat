@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="83c019e6-0a76-4ef9-a425-3f764f81982c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="ProjectId" id="1xH5obMbG22Q5mBvOaKuYP7FcOh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../Projekty/git-chat" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\phpc\14_product_crud\ajax\php" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\phpc\14_product_crud\ajax\javascript\kopie" />
+      <recent name="C:\xampp\htdocs\phpc\14_product_crud\ajax\javascript" />
+      <recent name="C:\xampp\htdocs\phpc\14_product_crud\ajax" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="83c019e6-0a76-4ef9-a425-3f764f81982c" name="Default Changelist" comment="" />
+      <created>1629999349189</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629999349189</updated>
+      <workItem from="1629999350220" duration="855000" />
+      <workItem from="1630266161033" duration="1014000" />
+      <workItem from="1630268024305" duration="1776000" />
+      <workItem from="1630269844122" duration="1781000" />
+      <workItem from="1630271697964" duration="1777000" />
+      <workItem from="1630273545359" duration="1780000" />
+      <workItem from="1630275375600" duration="1848000" />
+      <workItem from="1630277257727" duration="933000" />
+      <workItem from="1630314616410" duration="600000" />
+      <workItem from="1630324390528" duration="718000" />
+      <workItem from="1630326270093" duration="595000" />
+      <workItem from="1630342210247" duration="1563000" />
+      <workItem from="1630359004939" duration="1771000" />
+      <workItem from="1630361159886" duration="1859000" />
+      <workItem from="1630363056328" duration="557000" />
+      <workItem from="1630396649197" duration="3276000" />
+      <workItem from="1630399965211" duration="622000" />
+      <workItem from="1630402438203" duration="6222000" />
+      <workItem from="1630409116301" duration="2080000" />
+      <workItem from="1630411224002" duration="1354000" />
+      <workItem from="1630414729291" duration="689000" />
+      <workItem from="1630445611323" duration="1632000" />
+      <workItem from="1630447414876" duration="2036000" />
+      <workItem from="1630522664855" duration="1228000" />
+      <workItem from="1630526382422" duration="356000" />
+      <workItem from="1630529154608" duration="1775000" />
+      <workItem from="1630530984180" duration="1780000" />
+      <workItem from="1630532804062" duration="1779000" />
+      <workItem from="1630534612292" duration="1208000" />
+      <workItem from="1630874856394" duration="1170000" />
+      <workItem from="1630920936440" duration="1820000" />
+      <workItem from="1630922850466" duration="1966000" />
+      <workItem from="1630924843215" duration="1838000" />
+      <workItem from="1630926706243" duration="2237000" />
+      <workItem from="1630929739911" duration="3876000" />
+      <workItem from="1630933955109" duration="1623000" />
+      <workItem from="1630937131229" duration="1213000" />
+      <workItem from="1630938936417" duration="2253000" />
+      <workItem from="1630941308553" duration="691000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1630875434971">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1630875434971" />
+    <state x="314" y="455" key="NewPhpFileDialog" timestamp="1630920959595">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="314" y="455" key="NewPhpFileDialog/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1630920959595" />
+    <state x="314" y="455" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1630530062650" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1630875409645">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1630875409645" />
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1630273106805" />
+    <state x="562" y="35" width="974" height="1047" key="dock-window-1" timestamp="1630535479789">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="562" y="35" width="974" height="1047" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1630535479789" />
+    <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1630922939234">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="253" width="585" height="534" key="find.popup/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1630922939234" />
+    <state x="667" y="253" width="585" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1630361636825" />
+  </component>
+</project>
