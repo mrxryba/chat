@@ -1,5 +1,6 @@
 <?php
 session_start();
+
 if (isset($_SESSION['unique_id'])) {
     include_once "config.php";
     $logout_id = $_SESSION['unique_id'];
@@ -15,7 +16,7 @@ if (isset($_SESSION['unique_id'])) {
             if ($query) {
                 session_unset();
                 session_destroy();
-                header("location: ../login.php");
+                header("location: ../index.php");
             }
         } catch (PDOException $error) {
             $m = $error->getMessage();
@@ -23,6 +24,6 @@ if (isset($_SESSION['unique_id'])) {
     }
 
 } else {
-    header("location: ../login.php");
+    header("location: ../index.php");
 }
 ?>

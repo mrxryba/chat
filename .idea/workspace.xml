@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="83c019e6-0a76-4ef9-a425-3f764f81982c" name="Default Changelist" comment="" />
+    <list default="true" id="83c019e6-0a76-4ef9-a425-3f764f81982c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/signup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat.php" beforeDir="false" afterPath="$PROJECT_DIR$/chat.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatapp.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/kopie/login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/kopie/signup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/kopie/signup.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/kopie/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/data.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/data.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/get-chat.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/get-chat.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/insert-chat.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/insert-chat.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/logout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/search.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/search.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/signup.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/signup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/users.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/users.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users.php" beforeDir="false" afterPath="$PROJECT_DIR$/users.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +34,11 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1xH5obMbG22Q5mBvOaKuYP7FcOh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -78,7 +106,16 @@
       <workItem from="1630933955109" duration="1623000" />
       <workItem from="1630937131229" duration="1213000" />
       <workItem from="1630938936417" duration="2253000" />
-      <workItem from="1630941308553" duration="691000" />
+      <workItem from="1630941308553" duration="1263000" />
+      <workItem from="1630956821835" duration="712000" />
+      <workItem from="1630958668306" duration="2039000" />
+      <workItem from="1630960741831" duration="1698000" />
+      <workItem from="1630962548505" duration="1787000" />
+      <workItem from="1630964376708" duration="1780000" />
+      <workItem from="1630966184714" duration="707000" />
+      <workItem from="1630995919338" duration="1807000" />
+      <workItem from="1630997991521" duration="2164000" />
+      <workItem from="1631000542727" duration="3502000" />
     </task>
     <servers />
   </component>
@@ -104,10 +141,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="562" y="35" width="974" height="1047" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1630535479789" />
-    <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1630922939234">
+    <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1630962535056">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="667" y="253" width="585" height="534" key="find.popup/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1630922939234" />
+    <state x="667" y="253" width="585" height="534" key="find.popup/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1630962535056" />
     <state x="667" y="253" width="585" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1630361636825" />
+    <state x="623" y="225" key="search.everywhere.popup" timestamp="1631001748530">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1631001748530" />
   </component>
 </project>

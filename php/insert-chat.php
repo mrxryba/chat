@@ -1,5 +1,4 @@
 <?php
-
 session_start();
 if (isset($_SESSION['unique_id'])) {
     include_once "config.php";
@@ -26,7 +25,7 @@ if (isset($_SESSION['unique_id'])) {
     }
 
 } else {
-    header("location: ../login.php");
+    header("location: ../index.php");
 }
 
 ?>

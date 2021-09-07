@@ -13,29 +13,25 @@ if (!empty($email) && !empty($pass)) {
         $count = $stmt->rowCount();
         if ($count > 0) {
             $row = $stmt->fetch(PDO::FETCH_ASSOC);
-            $user_pass = md5($pass);
-            $enc_pass = $row['password'];
-            if ($user_pass === $enc_pass) {
+            if (password_verify($pass, $row['password'])) {
                 $status = "Active now";
                 $sql2 = "UPDATE users SET status = '{$status}' WHERE unique_id = {$row['unique_id']}";
                 $stmt = $connect->prepare($sql2);
                 $stmt->execute();
-
                 if ($sql2) {
                     $_SESSION['unique_id'] = $row['unique_id'];
-//                    echo "success";// TUtaj dać header do user php
                     header("location: ../users.php");
                 } else {
                     $_SESSION['error'] = "Something went wrong. Please try again!";
-                    header("location:../login.php");
+                    header("location:../index.php");
                 }
             } else {
-                 $_SESSION['error'] = "Email or Password is Incorrect!";
-                header("location:../login.php");
+                $_SESSION['error'] = "Email or Password is incorrect!";
+                header("location:../index.php");
             }
         } else {
-            $_SESSION['error'] = "This email not Exist!";
-            header("location:../login.php");
+            $_SESSION['error'] = "This email not exist!";
+            header("location:../index.php");
         }
     } catch (PDOException $error) {
         $m = $error->getMessage();
@@ -43,6 +39,6 @@ if (!empty($email) && !empty($pass)) {
     }
 } else {
     $_SESSION['error'] = "All input fields are required!";
-    header("location:../login.php");
+    header("location:../index.php");
 }
 ?>

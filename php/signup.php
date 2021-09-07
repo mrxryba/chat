@@ -15,7 +15,8 @@ if (!empty($fname) && !empty($lname) && !empty($email) && !empty($pass)) {
             $statement->execute();
             $count = $statement->rowCount();
             if ($count > 0) {
-                echo "$email - This email already exist!";
+                $_SESSION['error'] = "This email already exist!";
+                header("location:../signup.php");
             } else {
                 if (isset($_FILES['image'])) {
                     $img_name = $_FILES['image']['name'];
@@ -48,19 +49,24 @@ if (!empty($fname) && !empty($lname) && !empty($email) && !empty($pass)) {
                                         $result = $statement2->fetch(PDO::FETCH_ASSOC);
                                         $_SESSION['unique_id'] = $result['unique_id'];
                                         echo "success";
+                                        header("location: ../users.php");
                                     } else {
-                                        echo "This email address does not exist";
+                                        $_SESSION['error'] = "This email address does not exist";
+                                        header("location:../signup.php");
                                     }
                                 } else {
-                                    echo "Something went wrong. Please try again!";
+                                    $_SESSION['error'] = "Something went wrong. Please try again!";
+                                    header("location:../signup.php");
                                 }
 
                             }
                         } else {
-                            echo "Please upload an image file - jpeg, png, jpg";
+                            $_SESSION['error'] = "Please upload an image file - jpeg, png, jpg";
+                            header("location:../signup.php");
                         }
                     } else {
-                        echo "Please upload an image file - jpeg, png, jpg";
+                        $_SESSION['error'] = "Please upload an image file - jpeg, png, jpg";
+                        header("location:../signup.php");
                     }
                 }
 
@@ -72,12 +78,13 @@ if (!empty($fname) && !empty($lname) && !empty($email) && !empty($pass)) {
             echo $m;
         }
     } else {
-        echo "$email is not a valid email!";
+        $_SESSION['error'] = "The email you entered is not valid!";
+        header("location:../signup.php");
     }
 
 
 } else {
-    echo "All fields are required!";
-
+    $_SESSION['error'] = "All fields are required!";
+    header("location:../signup.php");
 }
 ?>

@@ -41,7 +41,7 @@ if (isset($_SESSION['unique_id'])) {
         echo $m;
     }
 } else {
-    header("location: ../login.php");
+    header("location: ../index.php");
 }
 
 ?>

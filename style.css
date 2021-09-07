@@ -24,7 +24,17 @@ body{
 }
 
 /*Login i signup*/
-
+.logo {
+  height: 70px;
+  border-radius: 0 !important;
+}
+.chat-title {
+  display: inline-block;
+}
+.form-email {
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+}
 .form{
   padding: 25px 30px;
 }
@@ -32,7 +42,8 @@ body{
   font-size: 25px;
   font-weight: 600;
   padding-bottom: 10px;
-  border-bottom: 1px solid #e6e6e6;
+  margin-bottom: -20px;
+  margin-left: 10px;
 }
 .form form{
   margin: 20px 0;
@@ -84,7 +95,7 @@ body{
   border: none;
   color: #fff;
   font-size: 17px;
-  background: #746AB0;
+  background: #ef603c;
   border-radius: 5px;
   cursor: pointer;
   margin-top: 13px;
@@ -148,7 +159,7 @@ body{
 }
 .users header .logout{
   display: block;
-  background: #746AB0;
+  background: #ef603c;
   color: #fff;
   outline: none;
   border: none;
@@ -244,7 +255,7 @@ body{
   border-top-right-radius: 15px;
   border-top-left-radius: 15px;
   align-items: center;
-  background: #746AB0;
+  background: #ff9d5c;
   color: #fff;
   padding: 18px 30px;
 }
@@ -414,4 +425,5 @@ body{
   .chat-area form button{
     width: 45px;
   }
+
 }
